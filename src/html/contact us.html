@@ -25,29 +25,63 @@
 
 <header>
 
-    <a href="../index.html" class="logo"><img src="../images/logo-img.jpg" alt=""></a>
+  <a href="index.html" class="logo"><img src="../images/logo-img.jpg" alt=""></a>
 
     <div id="class-bar" class="fas fa-calss"></div>
 
     <nav class="navbar">
         <ul>
-            <li><a   href="../index.html">home</a></li>
+            <li><a   href="index.html">home</a></li>
             <li><a href="about.html">about</a></li>
             <li><a href="profile.html">profile</a></li>
             <li><a href="gallary.html">gallery</a></li>
             <li><a href="hobbies.html">hobbies</a></li> 
+            <li><a class="active" href="contact us.html">contact us</a></li>
         </ul>
     </nav>
 
 </header>
-
+<section class="contact us" id="contact us">
 
     <h1 class="heading"> contact <span>us</span> </h1>
     
-    
+    <style>
+        h2{
+            font-size: 2.89em;
+        }
+       p{
+            font-size: 2.89em;
+        }
+        * {
+  box-sizing: border-box;
+}
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
 
+.flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 50%;
+}
 
+.flex-item-right {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+}
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+</style>
+</head>
+<body>
 <div>
 <h2>my contact</h2>
 </div>
@@ -66,9 +100,9 @@
 </div>
 
     
+    </div>
     
-    
-    
+    </section>
     
     
    
@@ -91,12 +125,12 @@
     
             <div class="box">
                 <h3>quick links </h3>
-                <a href="../index.html">home</a>
+                <a href="index.html">home</a>
                 <a href="about.html">about</a>
                 <a href="profile.html">profile</a>
                 <a href="gallary.html">gallery</a>
                 <a href="hobbies.html">hobbies</a>
-                
+                <a href="contact us.html">contact us</a>
             </div>
             
     
@@ -105,6 +139,37 @@
     </div>
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    
+    <script src="js/script.js"></script>
+    
+    
+    
+    <script>
+    
+        AOS.init({
+            delay:400,
+            duration:1000
+        })
+    
+    </script>
     
     </body>
     </html>
